@@ -1,0 +1,128 @@
+body {
+	color: #000;
+	font-family: "dapifer",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#nav {
+	margin: 0;
+	padding: 0;
+	font-family: "futura-pt";
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-style: italic;
+}
+
+#nav li {
+	display: inline;
+	margin: 0px;
+}
+
+#nav li:hover {
+	background-color: #F6FF00;
+}
+
+.welcome-container {
+	max-width: 100%;
+}
+
+.welcome-container img{
+	max-width: 100%;
+	height: auto;
+/*	border: solid black 3px;
+*/	margin-bottom: 20px;
+}
+
+.welcome-container img:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=60);
+}
+
+.slideshow-container {
+	width: 600px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.slideshow-container img{
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+
+.slideshow-container img:hover {
+	opacity: 0.8;
+	filter: alpha(opacity=60);
+	cursor: pointer;
+
+}
+
+.video {
+	margin-bottom: 20px;
+}
+.copy a:link {
+	font-style: italic;
+}
+.copy a:hover {
+	background-color: #F6FF00;
+}
+
+.more_button {
+	font-family: "futura-pt";
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.more_button a{
+	margin-left: 20px;
+}
+
+.more_button a:hover {
+	background-color: #F6FF00;
+	cursor: pointer;
+}
+
+.header {
+	font-size: 20px;
+	font-family: "futura-pt";
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-size: 40px;
+	word-spacing: 10px;
+	font-style: italic;
+}
+
+.header a:hover {
+	background-color: #F6FF00;
+}
+
+.active {
+	background-color: #F6FF00;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+	position: relative;
+	top: 1px;
+}
+
